@@ -1,0 +1,522 @@
+{
+  "hero-a": {
+    "src": "/media/demo/hero-a.jpg",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAABQAgCdASoQAAsAA4BaJbACdAEfliPkGU8ML0AA/u+epR0uk2ymsh4LLMKxWXV2Fgkbzc5bLv2ptRWG0+DHF62GrLOZaOZrpmQsmR4+3v4NnKMC8sZWWh8+DhaPPTvaeWxZnT2BsVzexD0GoFMZ3/uh1UcPOYwF8zEtv2ahEgAAAA==",
+    "color": "#260c0c",
+    "alt": "man in black jacket holding black dslr camera",
+    "credit": {
+      "name": "Osarugue Igbinoba",
+      "url": "https://unsplash.com/@osarugue",
+      "photo": "https://unsplash.com/photos/man-in-black-jacket-holding-black-dslr-camera-FpWaEa2_d5w"
+    }
+  },
+  "hero-b": {
+    "src": "/media/demo/hero-b.jpg",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsAA4BaJZgCdADGnnk2AAD+76HZVf1PK7WYQ7ccXIkjA4G4fLoOWfVkf19J7Tf0eRJhiFSWnqy6fNAAAA==",
+    "color": "#260c0c",
+    "alt": "band performing on stage in front of people",
+    "credit": {
+      "name": "Vishnu R Nair",
+      "url": "https://unsplash.com/@vishnurnair",
+      "photo": "https://unsplash.com/photos/band-performing-on-stage-in-front-of-people-m1WZS5ye404"
+    }
+  },
+  "hero-c": {
+    "src": "/media/demo/hero-c.jpg",
+    "width": 2400,
+    "height": 1601,
+    "blurDataURL": "data:image/webp;base64,UklGRlAAAABXRUJQVlA4IEQAAADQAQCdASoQAAsAA4BaJZwAApK37nwEAAD++FZfa+1+0lZun9G+0BvJfpYYEE+GYkzd/awrO/yeFFEzs+1g5nS3eiXAAA==",
+    "color": "#262626",
+    "alt": "black folding chair on canvas",
+    "credit": {
+      "name": "Keagan Henman",
+      "url": "https://unsplash.com/@henmankk",
+      "photo": "https://unsplash.com/photos/black-folding-chair-on-canvas-pPxJTtxfV1A"
+    }
+  },
+  "svc-social": {
+    "src": "/media/demo/svc-social.jpg",
+    "width": 1600,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAQBACdASoQABUAPu1iqU2ppaOiMAgBMB2JZQC7IMgCTI6/w7uVaI6TwAD+s0iHU7JzEltc5tIljRYFaREtuPBoDOst+x2XH9yv8VTzv8Mb9nnyvXBw5HonMFG4GntfZpTzRc20uKnwD3rMhmRumMZJGxJIEZvvel65PMwS+gAl+uW7cnQ+sCZIpiyVvov/D/ES+n/bLAAAAA==",
+    "color": "#8c8c8c",
+    "alt": "Woman recording herself on a smartphone tripod",
+    "credit": {
+      "name": "Afffect",
+      "url": "https://unsplash.com/@afffect",
+      "photo": "https://unsplash.com/photos/woman-recording-herself-on-a-smartphone-tripod-3FTq0q3QZc8"
+    }
+  },
+  "svc-video": {
+    "src": "/media/demo/svc-video.jpg",
+    "width": 1600,
+    "height": 2844,
+    "blurDataURL": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBACdASoQABwAPu1iqU2ppaOiMAgBMB2JQBbdBLhg5RxygeHiYHaMSvAA/vKh9OfNF4P8l34EwfY7LLKBUPXGifJC5Hw2VwWjE4TMozY5FKYLYRIOeMhck5qMagwYlrn/IHPdAGSECbYgOW++Y2BMogTkNCY2LMft7LntVDAsox8+C+GGVQ1vMTnIHWChjK2HP0kv1DJgAA==",
+    "color": "#0c2626",
+    "alt": "black and silver dslr camera",
+    "credit": {
+      "name": "Billy Freeman",
+      "url": "https://unsplash.com/@billyfreeman",
+      "photo": "https://unsplash.com/photos/black-and-silver-dslr-camera-zrJH5NUEdOM"
+    }
+  },
+  "svc-editing": {
+    "src": "/media/demo/svc-editing.jpg",
+    "width": 1600,
+    "height": 2000,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAwAwCdASoQABQAPu1iqU2ppaQiMAgBMB2JZgAAW7xUrghQAP7wxBae8DW1bqPhE+P4EcDwWqJUveVnB2uBsdNdGFrGiQP+6TH/qfaNu3QcZOAA",
+    "color": "#260c0c",
+    "alt": "black and red laptop computer",
+    "credit": {
+      "name": "Padraig Treanor",
+      "url": "https://unsplash.com/@padraigo",
+      "photo": "https://unsplash.com/photos/black-and-red-laptop-computer-A66iN9J4xlE"
+    }
+  },
+  "svc-photo": {
+    "src": "/media/demo/svc-photo.jpg",
+    "width": 1600,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADQAwCdASoQABUAPu1iqU2ppaOiMAgBMB2JaQAAW2P2fQdJFvO8BwAA/vFt48OThNezEmgOYTdWOT89IOtYZf9sSZYkesgxSoOi8Mu7TzEyDnDerfZbOgSFE48/NnwSRObayO4X/N05cVj7y44cAAAA",
+    "color": "#404040",
+    "alt": "black and white table lamp on white table",
+    "credit": {
+      "name": "Clément Guenat",
+      "url": "https://unsplash.com/@cgbm_officiel",
+      "photo": "https://unsplash.com/photos/black-and-white-table-lamp-on-white-table-QiKAIqa_S3E"
+    }
+  },
+  "svc-events": {
+    "src": "/media/demo/svc-events.jpg",
+    "width": 1600,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoQABUAPu1iqU2ppaQiMAgBMB2JZwAAW+tgOOqHXEOY/gD+7nXqlg1deCOoTaRnMwcD3vaxw00ERfH+ItDgdjonSkiweAAA",
+    "color": "#260c0c",
+    "alt": "a stage with a crowd of people",
+    "credit": {
+      "name": "Kevin Yudhistira Alloni",
+      "url": "https://unsplash.com/@kyalloni",
+      "photo": "https://unsplash.com/photos/a-stage-with-a-crowd-of-people-sol7vhs8Pdg"
+    }
+  },
+  "svc-coverage": {
+    "src": "/media/demo/svc-coverage.jpg",
+    "width": 1600,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JZgCdMoAvQBrOB/9ToIeG5wYAAP7ug6jymTINd2/qOTvLgb9YKpb24LGs+D/qPGbK2qTdWul9GANQNCctTxxC5SAAJ4gMZulNDKPLZLLgUriWNQ5cJsd2hZiW+SBfKLYCjJjT7HlrSc+G2VioCL4n90dAgUoBvo0AAA==",
+    "color": "#0c2640",
+    "alt": "person holding black smartphone taking photo of man in black shirt",
+    "credit": {
+      "name": "Timek Life",
+      "url": "https://unsplash.com/@timek_life",
+      "photo": "https://unsplash.com/photos/person-holding-black-smartphone-taking-photo-of-man-in-black-shirt-2JBBrp9k5O0"
+    }
+  },
+  "svc-studio": {
+    "src": "/media/demo/svc-studio.jpg",
+    "width": 1600,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACwAwCdASoQABUAPu1iqk2ppaQiMAgBMB2JZQC06CHe8AJ1BwovUAD+w1HxgD4Jt4FXneIoA37uiShSPCTikG2B2m2vEjFvAp6wC3m/Mp2KbbgqyY59hRAd0MTJhc0QzfHebpHh9NAAAA==",
+    "color": "#c0c0a6",
+    "alt": "A large studio light with a softbox and a mirror reflecting a director chair",
+    "credit": {
+      "name": "Neon Wang",
+      "url": "https://unsplash.com/@neonwangphotography",
+      "photo": "https://unsplash.com/photos/studio-light-and-mirror-reflecting-chair-ROBrQcKN2m4"
+    }
+  },
+  "svc-campaigns": {
+    "src": "/media/demo/svc-campaigns.jpg",
+    "width": 1600,
+    "height": 2133,
+    "blurDataURL": "data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAQBACdASoQABUAPu1iqU2ppaQiMAgBMB2JaACdH8EaAAWDqIzYI1XVQAD+4zYVX6snMfMZlaPCG/+MFSCtT2pyl9gztjP6MvI4XGOjrqaOFcFpYFkY0Vxrg2y3O+juN6s8D2rTmtH547/8ALrT88eSDcPpGcLQsOOAAA==",
+    "color": "#264040",
+    "alt": "a woman in a green dress holding an apple",
+    "credit": {
+      "name": "Igor Rand",
+      "url": "https://unsplash.com/@igorrand",
+      "photo": "https://unsplash.com/photos/a-woman-in-a-green-dress-holding-an-apple--vwhsEcOYD8"
+    }
+  },
+  "p1-a": {
+    "src": "/media/demo/p1-a.jpg",
+    "width": 1600,
+    "height": 1200,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADQAQCdASoQAAwAA4BaJZwAAljBgoK+YAD+9drpBxleCYSA1qPPvPNztVzoYz2OmkUJJzjcbreN+HiEj5u7rHcYcnWuqwknEhyL+scSukjvQDQAAAA=",
+    "color": "#262626",
+    "alt": "black and white house with red light",
+    "credit": {
+      "name": "set.sj",
+      "url": "https://unsplash.com/@setsj",
+      "photo": "https://unsplash.com/photos/black-and-white-house-with-red-light-OKddgF77-JI"
+    }
+  },
+  "p1-b": {
+    "src": "/media/demo/p1-b.jpg",
+    "width": 1600,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JQBOgA9Lz4AMuFw1kFHFcAP5haAmNzcQDQ/S6tBGiI5Tfk6y6A71XjL/KmnlKNkC7wH/FxCBdwMDllYpchsyemKBKz7nUOo5WURr3P8mKwG8m+W1WudXpVbJjU5SP3pWj++Oy//Wd0CXteqw1ggGAAAA=",
+    "color": "#26260c",
+    "alt": "person holding stainless steel spoon",
+    "credit": {
+      "name": "Duane Mendes",
+      "url": "https://unsplash.com/@duanemendes",
+      "photo": "https://unsplash.com/photos/person-holding-stainless-steel-spoon-JrRoJlGyZwk"
+    }
+  },
+  "p1-c": {
+    "src": "/media/demo/p1-c.jpg",
+    "width": 1600,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAADwAwCdASoQABgAPu1kqU2ppaOiMAgBMB2JQAAITiaF7MI0Ppmp8YoAAP7nPqEfaYm69SkXaKYUqIT9ZUHzMAueuDyeG4XBQrpwBcC2ufPgW4/QPu0smKGP/PXSPejL058DoGlTtre85PoUufeO0uzdsJyrWMsKoHHg3MCpP1fp5M/Dpq3FBz+DWpOk3dBE1SwIuc/3PkEn7i/0MgoOf6nUQjEwAAAA",
+    "color": "#d9d9d9",
+    "alt": "man in black jacket holding black dslr camera",
+    "credit": {
+      "name": "Jakob Rosen",
+      "url": "https://unsplash.com/@jakobnoahrosen",
+      "photo": "https://unsplash.com/photos/man-in-black-jacket-holding-black-dslr-camera-lrYgZl8INMk"
+    }
+  },
+  "p1-d": {
+    "src": "/media/demo/p1-d.jpg",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADwAQCdASoQAAsAA4BaJYwC7AEPeWNoCAAA/vhUqJfgTsuz7jeNHMFem8zern2JoIQMJ9fcMb03BZZECOqmgoNTzjJHDiPRy3p6FtQA",
+    "color": "#262626",
+    "alt": "clear drinking glass with brown liquid on brown wooden table",
+    "credit": {
+      "name": "Pylyp Sukhenko",
+      "url": "https://unsplash.com/@novokayn",
+      "photo": "https://unsplash.com/photos/clear-drinking-glass-with-brown-liquid-on-brown-wooden-table-ibh9J-fIgZU"
+    }
+  },
+  "p2-a": {
+    "src": "/media/demo/p2-a.jpg",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAwAgCdASoQAAsAA4BaJbACdAYuvvpuEz0CgAD+6hmWIsxhq6P9FcTmLKS5A4V2C9PSrgTs6jv4UtZ3Go2YtA41gnZPavYEsNbu3p9ht/HuoQwfabKUdCnNH15Abx3RUKh3tF53zcAAAA==",
+    "color": "#f3f3f3",
+    "alt": "A crowd of people sitting in front of a stage",
+    "credit": {
+      "name": "Tyler Witkin",
+      "url": "https://unsplash.com/@zyloh",
+      "photo": "https://unsplash.com/photos/a-crowd-of-people-sitting-in-front-of-a-stage-ojiceL6CWRQ"
+    }
+  },
+  "p2-b": {
+    "src": "/media/demo/p2-b.jpg",
+    "width": 1600,
+    "height": 2399,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAAAQBACdASoQABgAPu1iqk2ppaQiMAgBMB2JZgCsAB6HjARKTw48OdndQAD+40pMQ3NeZ7DhNQVY6gmEV8hBeCFh+26stPuJbX8ZHZ9VBTT8fqgx4uQUiHGx6gaQz5I3FWrakQAA",
+    "color": "#262659",
+    "alt": "A crowd at a concert with purple confetti falling under bright stage lights",
+    "credit": {
+      "name": "Samuel Regan-Asante",
+      "url": "https://unsplash.com/@reganography",
+      "photo": "https://unsplash.com/photos/concert-crowd-with-purple-confetti-3BcNKoySAq0"
+    }
+  },
+  "p2-c": {
+    "src": "/media/demo/p2-c.jpg",
+    "width": 1600,
+    "height": 2399,
+    "blurDataURL": "data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAACwBACdASoQABgAPu1iqU2ppaQiMAgBMB2JbACdMoRwAc+xBrpSvL20Q5+wx6LgAP7uj8MAGXNUkCDL9vn9v9ImjSEPyznLpSk/fc/aQ0u9SNjtPBtBQTsS+/jumtNml3x14a6jv1hP7xp+MMmKYhqkioBPRkCNzKEzajDSJ/82QAAA",
+    "color": "#0c40a6",
+    "alt": "a man standing in front of a large crowd",
+    "credit": {
+      "name": "Marcel Strauß",
+      "url": "https://unsplash.com/@martzzl",
+      "photo": "https://unsplash.com/photos/a-man-standing-in-front-of-a-large-crowd-nq2jS7o5OTs"
+    }
+  },
+  "p2-d": {
+    "src": "/media/demo/p2-d.jpg",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAQCdASoQAAsAA4BaJbACdADp7mN7AAD+81LTjukq5h0BtP4MuIVTVPuaOPIRAuWxmjROHleJTE1PpEC1FfjMKwpbl34/KicLyZ8hJyW7Rhe+zeEzvsLoAAA=",
+    "color": "#730c0c",
+    "alt": "A crystal chandelier hanging from a ceiling draped in colorful red and blue fabric",
+    "credit": {
+      "name": "anik das",
+      "url": "https://unsplash.com/@anik01993",
+      "photo": "https://unsplash.com/photos/crystal-chandelier-under-colorful-fabric-ceiling-hRcJt9QnbdI"
+    }
+  },
+  "p3-a": {
+    "src": "/media/demo/p3-a.jpg",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRjQAAABXRUJQVlA4ICgAAACQAQCdASoQAAsAA4BaJaQAAudU2rAA/vnBaraDmzlBIZDkBCxw5AAA",
+    "color": "#262626",
+    "alt": "shirtless man lifting barbell in gym",
+    "credit": {
+      "name": "Anastase Maragos",
+      "url": "https://unsplash.com/@visualsbyroyalz",
+      "photo": "https://unsplash.com/photos/shirtless-man-lifting-barbell-in-gym-9dzWZQWZMdE"
+    }
+  },
+  "p3-b": {
+    "src": "/media/demo/p3-b.jpg",
+    "width": 1600,
+    "height": 2395,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAACwAwCdASoQABgAPu1iqU2ppaOiMAgBMB2JZQAAW7kA1c4z0gIcAAD+9CTsm2zfswbwZUBcWUkqI0KWNaPWMmhNMr1k4f9us7zgc6BjrZfaB6tnTT6zE1p5B4oAAA==",
+    "color": "#0c2626",
+    "alt": "a man lifting a barbell in a dark gym",
+    "credit": {
+      "name": "Redd Francisco",
+      "url": "https://unsplash.com/@reddfrancisco",
+      "photo": "https://unsplash.com/photos/a-man-lifting-a-barbell-in-a-dark-gym-t9DxAo7VOCg"
+    }
+  },
+  "p3-c": {
+    "src": "/media/demo/p3-c.jpg",
+    "width": 1600,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAABQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwC7AYww22xdfIKVo9kkOX70AP70KZiIwniAoRuf0Oj1VDpDjsEJazgR5ZAVpM1DYRkix2AZaKG34Phi7wvNHTJjPJihSLMok2uepiGVkoBtd3zRew4p47z4QOXOR1rm4YHS/fMhWr1ISyi10wAAAAA=",
+    "color": "#8c8c8c",
+    "alt": "Person recording a live video on a smartphone",
+    "credit": {
+      "name": "Rodrigo Rodrigues | WOLF Λ R T",
+      "url": "https://unsplash.com/@wolfart32",
+      "photo": "https://unsplash.com/photos/person-recording-a-live-video-on-a-smartphone-RG8_AHsKCIs"
+    }
+  },
+  "p3-d": {
+    "src": "/media/demo/p3-d.jpg",
+    "width": 1600,
+    "height": 1062,
+    "blurDataURL": "data:image/webp;base64,UklGRj4AAABXRUJQVlA4IDIAAACwAQCdASoQAAsAA4BaJZwAAudMsh4AAP724O8EhtqukpKIlrC6VfgQ8DaarBQ50nBoAA==",
+    "color": "#262626",
+    "alt": "body builder woman wearing black crop-top cross armed closeup photography",
+    "credit": {
+      "name": "Scott Webb",
+      "url": "https://unsplash.com/@scottwebb",
+      "photo": "https://unsplash.com/photos/body-builder-woman-wearing-black-crop-top-cross-armed-closeup-photography-0DyZE6aLD-8"
+    }
+  },
+  "p4-a": {
+    "src": "/media/demo/p4-a.jpg",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoQAAsAA4BaJZACdIExGOg+eV3XliAA4Znlj+VNKYuiBidYFb+xXV7OaTmZNHFpfatBl1qe7XMDZ63U0178zyNdBwanNRl8c8rOKpYjRHPs1cVb8CTeHFoi88q33vqUR1CKK6CUPQAAAA==",
+    "color": "#c0c0c0",
+    "alt": "a man wearing headphones sitting in front of a microphone",
+    "credit": {
+      "name": "Tim Mossholder",
+      "url": "https://unsplash.com/@timmossholder",
+      "photo": "https://unsplash.com/photos/a-man-wearing-headphones-sitting-in-front-of-a-microphone-E8JXH2PNahs"
+    }
+  },
+  "p4-b": {
+    "src": "/media/demo/p4-b.jpg",
+    "width": 1600,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAACQAwCdASoQABgALrV2u12jqampiYC0SzgGN6Id9PuElpe+QqUAAP75DC6jHta1xx8X/xLDOSxGvgQvVMVe+ah+u70+w/yR6mEcIX8qDSmmRENgAAA=",
+    "color": "#0c2626",
+    "alt": "black microphone with stand on black background",
+    "credit": {
+      "name": "Chris Yang",
+      "url": "https://unsplash.com/@chrisyangchrisfilm",
+      "photo": "https://unsplash.com/photos/black-microphone-with-stand-on-black-background-kuDzh5rufkk"
+    }
+  },
+  "p4-c": {
+    "src": "/media/demo/p4-c.jpg",
+    "width": 1600,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAADQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JbACdMoMrZ0f92bxs986v1wYYvF3GAAD+kBFIbu9E2gVcjPYiLnvYJqLwHz0hn8dzBj/EmZHjryzhX5av8xly9+36O/13VDOtZLbUsP3jMS18w9gkHtnrAHmLzP4vsyfDbP+npq7vwR6wIlg0H9BJZR60pOw+XkDPWBsy4+oqAs1aFSMDBLJ3vS1hiAAA",
+    "color": "#73c0d9",
+    "alt": "a person sitting at a table",
+    "credit": {
+      "name": "Videodeck .co",
+      "url": "https://unsplash.com/@videodeck",
+      "photo": "https://unsplash.com/photos/a-person-sitting-at-a-table-GRUhkcD9k8o"
+    }
+  },
+  "p4-d": {
+    "src": "/media/demo/p4-d.jpg",
+    "width": 1600,
+    "height": 1000,
+    "blurDataURL": "data:image/webp;base64,UklGRkYAAABXRUJQVlA4IDoAAADQAQCdASoQAAoAA4BaJZwAApMC3i4UkAD+97/1bJ4ywZA1UCGHMWvlos0RDSnPYHm/7PADAlZJaoAA",
+    "color": "#262626",
+    "alt": "black and green audio mixer",
+    "credit": {
+      "name": "James Kovin",
+      "url": "https://unsplash.com/@james2k",
+      "photo": "https://unsplash.com/photos/black-and-green-audio-mixer-F2h_WbKnX4o"
+    }
+  },
+  "p5-a": {
+    "src": "/media/demo/p5-a.jpg",
+    "width": 1600,
+    "height": 1200,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABQAgCdASoQAAwAA4BaJaQAD4hQ2u8NsrgJVQAA/u5s+1mv5EoiP0NvA0H+lX7I4oDkwsQtfR8+V6EG4p4te7Es+r+ek5/+Je+s+anf2j9g/Nm8PeErcCRjdd9vdENr5O4P8RnltFhyHYaleIAAAA==",
+    "color": "#f3f3f3",
+    "alt": "A person in a wide-sleeved black jacket posing in silhouette against a white background",
+    "credit": {
+      "name": "Malicki M Beser",
+      "url": "https://unsplash.com/@themalicki",
+      "photo": "https://unsplash.com/photos/person-in-black-jacket-silhouette-PKMvkg7vnUo"
+    }
+  },
+  "p5-b": {
+    "src": "/media/demo/p5-b.jpg",
+    "width": 1600,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRsgAAABXRUJQVlA4ILwAAABQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwC7AYvMcKDK2eRaWMiiT/IAAP7c69BUuWaji/6w95aaoEHLMKZET1qfVXql/eN4A6U3hsxe5IIDNc42ckI9zU68vWHVEo0ffHWu4OqSUtoP11xcoRGg5W88m+LDsVcy/QkRgOgVFOLsj6aeSUvu+Vm+M77je87QI+9A3cBTmnU9nIzXUAt64El2K/0o5s0Ov4c9r3Ie5+QldmUnPUXxxMcgAA==",
+    "color": "#f3f3f3",
+    "alt": "Model walks runway at fashion event with audience",
+    "credit": {
+      "name": "Ken's Vision",
+      "url": "https://unsplash.com/@kensvisionx",
+      "photo": "https://unsplash.com/photos/model-walks-runway-at-fashion-event-with-audience-UhWly5nS15g"
+    }
+  },
+  "p5-c": {
+    "src": "/media/demo/p5-c.jpg",
+    "width": 1600,
+    "height": 2413,
+    "blurDataURL": "data:image/webp;base64,UklGRqAAAABXRUJQVlA4IJQAAAAQBACdASoQABgAPu1iqU2ppaOiMAgBMB2JYwC7ACG8B82iYP3tzxnvAAD+8d7DXxU9uE9VapPXZ11r903dPeKDQ4BX0DEsSqxZPNvFEL1JpFMsMcUQkQwQVM1CXgFNNQhz5XKbhLIvlcAc+uxDiB3N70bf5cpQrXRutcTwenJahZIW2BR0HGBPvvNBYex9WsuyHgAA",
+    "color": "#f3f3f3",
+    "alt": "A woman standing on a city street with a skateboard on her head",
+    "credit": {
+      "name": "JC Gellidon",
+      "url": "https://unsplash.com/@jcgellidon",
+      "photo": "https://unsplash.com/photos/a-woman-standing-on-a-city-street-with-a-skateboard-on-her-head-ktME4-TLi1Q"
+    }
+  },
+  "p5-d": {
+    "src": "/media/demo/p5-d.jpg",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAAAQAgCdASoQAAsAA4BaJQBOkCYiNXfKGKAAAP7AJHJd9t6rlTmeKn9DSpsvtYYOm5MtFJ48GFi3HrH85fMUxVHkm4TgHdYwAAA=",
+    "color": "#595959",
+    "alt": "photo of woman looking right",
+    "credit": {
+      "name": "Samuel Dixon",
+      "url": "https://unsplash.com/@samueldixon",
+      "photo": "https://unsplash.com/photos/photo-of-woman-looking-right--fQ5XNOcqFQ"
+    }
+  },
+  "p6-a": {
+    "src": "/media/demo/p6-a.jpg",
+    "width": 1600,
+    "height": 1067,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwAgCdASoQAAsAA4BaJbACdLoAApu8RBygAAD+TSdLjlMXYFPr2qbw60YrCQ6EDKVFGYgHfKl61T5udm6wToeIkhcVsPEb0IdpwNgXIJxFka/dHXm2wneBfUREIsgIAAA=",
+    "color": "#8c260c",
+    "alt": "A couple performing a wedding ritual under a floral canopy in a ballroom",
+    "credit": {
+      "name": "AMISH THAKKAR",
+      "url": "https://unsplash.com/@amishthakkar",
+      "photo": "https://unsplash.com/photos/wedding-couple-performing-ritual-in-ballroom-BEdxXAiRfRM"
+    }
+  },
+  "p6-b": {
+    "src": "/media/demo/p6-b.jpg",
+    "width": 1600,
+    "height": 2400,
+    "blurDataURL": "data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAACQBACdASoQABgAPu1orU6ppiSiMAgBMB2JQBdmUGQ6nJTG1pXyEG+s++HJ3AAA/v3b7H8QouZ8zgFU181JFYOrNhGXv9aMtGVdpeFsF6KEN5gF+Grc6/9+vRQ7OdvekdSLBDgQ51nAG3wMLvEtskrmM0ddYZCTDc7kH9outWS5arRINMSNGQiSS4Tfz0RajRyYGZwqirYAAA==",
+    "color": "#262626",
+    "alt": "woman in green and gold sari",
+    "credit": {
+      "name": "Aastha Bansal",
+      "url": "https://unsplash.com/@the_travelsmokey",
+      "photo": "https://unsplash.com/photos/woman-in-green-and-gold-sari-W1wkx5kcaBk"
+    }
+  },
+  "p6-c": {
+    "src": "/media/demo/p6-c.jpg",
+    "width": 1600,
+    "height": 2844,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACQAwCdASoQABwAPu1kqk2ppaQiMAgBMB2JQBWADSwAD7MgWMAAAP79AFxh/biLvZYzh2dyJksZghY+0bvqSZclGN3Odhj0Ma3yHnlLKGs5IfB8hD1FRfW7B+U63QusCOzDUL3SJnBWSpLL6KHwAA==",
+    "color": "#262626",
+    "alt": "a woman is dancing on a wooden floor",
+    "credit": {
+      "name": "Mohit Gohel",
+      "url": "https://unsplash.com/@mohitt7i",
+      "photo": "https://unsplash.com/photos/a-woman-is-dancing-on-a-wooden-floor-uH5hThPzEYk"
+    }
+  },
+  "p6-d": {
+    "src": "/media/demo/p6-d.jpg",
+    "width": 1600,
+    "height": 1065,
+    "blurDataURL": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADQAgCdASoQAAsAA4BaJbACdLoA4wF2VglJAOIHikLAAP7qWoTboCjukLxFJC77c8BjJO/p9V3HTjBUiIHxaiq4XqnYCodyj6JvABPYmfc3wgbzc8vNG8ZKskxrBBk/UO7ijb+bOoxJ3cu6mpJdzbzI4IESdle3bX2PdFODD25dCnFdHAA=",
+    "color": "#d98c0c",
+    "alt": "yellow and pink flower in tilt shift lens",
+    "credit": {
+      "name": "PhotographyCourse",
+      "url": "https://unsplash.com/@photographycoursenet",
+      "photo": "https://unsplash.com/photos/yellow-and-pink-flower-in-tilt-shift-lens-xXKSbHqzfRQ"
+    }
+  },
+  "experience": {
+    "src": "/media/demo/experience.jpg",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAABwAgCdASoQAAsAA4BaJZgCdAYwdvQ013TJuv4AAPlIiV7SC30GrkUOR5DZ5sv5poGbYQEmRZUxZ4yJiuSwOwknBwec5Jjkn39NckD96vupLTcrzd3GwEIG0uou6MkwqaGdy5vjtbUWsARx3egAAA==",
+    "color": "#404040",
+    "alt": "person performing heart hand gesture",
+    "credit": {
+      "name": "Anthony DELANOIX",
+      "url": "https://unsplash.com/@anthonydelanoix",
+      "photo": "https://unsplash.com/photos/person-performing-heart-hand-gesture-hzgs56Ze49s"
+    }
+  },
+  "cta": {
+    "src": "/media/demo/cta.jpg",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRigAAABXRUJQVlA4IBwAAAAwAQCdASoQAAsAA4BaJaQAA3AA/vW7SX7jhcAA",
+    "color": "#262626",
+    "alt": "man in black jacket standing on the ground during night time",
+    "credit": {
+      "name": "Luis Morera",
+      "url": "https://unsplash.com/@luismorerat",
+      "photo": "https://unsplash.com/photos/man-in-black-jacket-standing-on-the-ground-during-night-time-d5-GkHQVlIM"
+    }
+  },
+  "studio": {
+    "src": "/media/demo/studio.jpg",
+    "width": 2400,
+    "height": 1350,
+    "blurDataURL": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAADwAQCdASoQAAkAA4BaJbACdADp6pNB8vgAzcicGK0nF70NN/o9r/IxO6HNytmX2kvbj3aXynSotAtJgtOku36N0w5MpsI5G80S7umEt5oIGuab7w2KPpgbi76lRPr2iiybAAAA",
+    "color": "#260c26",
+    "alt": "a table with a lamp and a chair in a room with windows",
+    "credit": {
+      "name": "Luther Yonel",
+      "url": "https://unsplash.com/@lutheryonel",
+      "photo": "https://unsplash.com/photos/a-table-with-a-lamp-and-a-chair-in-a-room-with-windows-zMC6LPgK8u4"
+    }
+  },
+  "mangaluru": {
+    "src": "/media/demo/mangaluru.jpg",
+    "width": 2400,
+    "height": 1800,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADwAQCdASoQAAwAA4BaJQBOgCG5bjhc55AA99/1RCLqRa3FLaHsoK/XgDkAPZZb/8AWmBbBtTJQruI8TSwPbLRCnVStIQfk8M78hrIfIjVGK1DZZ/+ZqkAA",
+    "color": "#d9c0a6",
+    "alt": "brown sand beach with green trees and brown rocks",
+    "credit": {
+      "name": "Godwyn Fernandes",
+      "url": "https://unsplash.com/@godwyn_fernandes",
+      "photo": "https://unsplash.com/photos/brown-sand-beach-with-green-trees-and-brown-rocks-2R5KsAVGCNE"
+    }
+  },
+  "about": {
+    "src": "/media/demo/about.jpg",
+    "width": 2400,
+    "height": 1600,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAQCdASoQAAsAA4BaJYwCdAEDZTmngAD+6VQAAbpIi9+9ifF0ZpFaFivyxHBcv1ZRUXuO0tI7VYyoHCUpJl1vO8N0AAAA",
+    "color": "#262626",
+    "alt": "a group of people standing around a camera set up",
+    "credit": {
+      "name": "Jakob Owens",
+      "url": "https://unsplash.com/@jakobowens1",
+      "photo": "https://unsplash.com/photos/a-group-of-people-standing-around-a-camera-set-up-xKfS7Hll0Ck"
+    }
+  }
+}
