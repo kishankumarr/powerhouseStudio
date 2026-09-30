@@ -150,6 +150,76 @@
   color-scheme: light;
 }
 
+/* ------------------------------------------------------------------
+   Typeface presets (top-bar picker). They override only type tokens,
+   so any typeface works with any colour theme. Declared after the
+   themes so they win at equal specificity.
+------------------------------------------------------------------- */
+
+[data-font="bodoni"] {
+  --display: var(--font-bodoni), "Bodoni 72", Didot, serif;
+  --body: var(--font-hanken), system-ui, sans-serif;
+  --display-weight: 500;
+  --display-stretch: 100%;
+  --display-tracking: -0.01em;
+  --display-leading: 1.12;
+  --display-scale: 1;
+}
+[data-font="instrument"] {
+  --display: var(--font-instrument), "Times New Roman", serif;
+  --body: var(--font-hanken), system-ui, sans-serif;
+  --display-weight: 400;
+  --display-stretch: 100%;
+  --display-tracking: -0.005em;
+  --display-leading: 1.08;
+  --display-scale: 1.1;
+}
+[data-font="syne"] {
+  --display: var(--font-syne), system-ui, sans-serif;
+  --body: var(--font-hanken), system-ui, sans-serif;
+  --display-weight: 700;
+  --display-stretch: 100%;
+  --display-tracking: -0.02em;
+  --display-leading: 1.08;
+  --display-scale: 0.86;
+}
+[data-font="saira"] {
+  --display: var(--font-saira), "Arial Narrow", sans-serif;
+  --body: var(--font-saira), system-ui, sans-serif;
+  --display-weight: 800;
+  --display-stretch: 62.5%;
+  --display-tracking: 0.01em;
+  --display-leading: 1.06;
+  --display-scale: 1.3;
+}
+[data-font="inter"] {
+  --display: var(--font-inter-tight), "Helvetica Neue", sans-serif;
+  --body: var(--font-inter-tight), system-ui, sans-serif;
+  --display-weight: 600;
+  --display-stretch: 100%;
+  --display-tracking: -0.03em;
+  --display-leading: 1.06;
+  --display-scale: 1;
+}
+
+/* Typeface swaps crossfade instead of using the theme's circular reveal. */
+html[data-vt="font"]::view-transition-old(root) {
+  animation: vt-fade-out 0.45s ease both;
+}
+html[data-vt="font"]::view-transition-new(root) {
+  animation: vt-fade-in 0.45s ease both;
+}
+@keyframes vt-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+@keyframes vt-fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
 @theme inline {
   --color-bg: var(--bg);
   --color-fg: var(--fg);
@@ -494,7 +564,7 @@ input[type="date"].field::-webkit-calendar-picker-indicator {
   padding-top: calc(5rem + 42svh + 2rem);
 }
 [data-theme="editorial"] .hero-title {
-  font-size: clamp(2.6rem, 6.4vw, 8.75rem);
+  font-size: clamp(2.4rem, calc(5.8vw * var(--display-scale)), 8.75rem);
 }
 [data-theme="editorial"] .hero-shade,
 [data-theme="minimal"] .hero-shade {
@@ -534,7 +604,7 @@ input[type="date"].field::-webkit-calendar-picker-indicator {
   padding-bottom: calc(40svh + 2.5rem);
 }
 [data-theme="minimal"] .hero-title {
-  font-size: clamp(2.4rem, 5.4vw, 7.5rem);
+  font-size: clamp(2.3rem, calc(5.4vw * var(--display-scale)), 7.5rem);
 }
 @media (min-width: 1024px) {
   [data-theme="minimal"] .hero-frame {

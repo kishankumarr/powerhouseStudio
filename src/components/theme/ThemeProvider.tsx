@@ -3,13 +3,24 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
 import { flushSync } from "react-dom";
 import { MotionConfig } from "motion/react";
-import { DEFAULT_THEME, THEMES, THEME_MOTION, THEME_STORAGE_KEY, type ThemeId } from "@/lib/themes";
+import {
+  DEFAULT_FONT,
+  DEFAULT_THEME,
+  FONT_STORAGE_KEY,
+  THEMES,
+  THEME_MOTION,
+  THEME_STORAGE_KEY,
+  type FontId,
+  type ThemeId,
+} from "@/lib/themes";
 
 type Origin = { x: number; y: number };
 
 type ThemeContextValue = {
   theme: ThemeId;
   setTheme: (id: ThemeId, origin?: Origin) => void;
+  font: FontId;
+  setFont: (id: FontId) => void;
   motion: (typeof THEME_MOTION)[ThemeId];
 };
 
@@ -30,14 +41,44 @@ function applyTheme(id: ThemeId) {
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setThemeState] = useState<ThemeId>(DEFAULT_THEME);
+  const [font, setFontState] = useState<FontId>(DEFAULT_FONT);
 
-  // The inline head script already applied the stored theme; sync React state to it.
+  // The inline head script already applied the stored choices; sync React state to them.
   useEffect(() => {
-    const current = document.documentElement.dataset.theme as ThemeId | undefined;
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- one-time sync with the pre-paint script
-    if (current && current !== theme) setThemeState(current);
+    const { theme: storedTheme, font: storedFont } = document.documentElement.dataset;
+    /* eslint-disable react-hooks/set-state-in-effect -- one-time sync with the pre-paint script */
+    if (storedTheme && storedTheme !== theme) setThemeState(storedTheme as ThemeId);
+    if (storedFont) setFontState(storedFont as FontId);
+    /* eslint-enable react-hooks/set-state-in-effect */
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  /** Swaps the typeface with a short crossfade once the new face has loaded. */
+  const setFont = useCallback(
+    (id: FontId) => {
+      if (id === font) return;
+      const root = document.documentElement;
+      const commit = async () => {
+        flushSync(() => setFontState(id));
+        if (id === "theme") delete root.dataset.font;
+        else root.dataset.font = id;
+        try {
+          localStorage.setItem(FONT_STORAGE_KEY, id);
+        } catch {
+          // Storage unavailable; the choice still applies for this visit.
+        }
+        await Promise.race([document.fonts.ready, new Promise((r) => setTimeout(r, 600))]);
+      };
+      const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (!reduce && typeof document.startViewTransition === "function") {
+        root.dataset.vt = "font";
+        document.startViewTransition(commit).finished.finally(() => delete root.dataset.vt);
+      } else {
+        void commit();
+      }
+    },
+    [font],
+  );
 
   const setTheme = useCallback(
     (id: ThemeId, origin?: Origin) => {
@@ -69,7 +110,10 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     [theme],
   );
 
-  const value = useMemo(() => ({ theme, setTheme, motion: THEME_MOTION[theme] }), [theme, setTheme]);
+  const value = useMemo(
+    () => ({ theme, setTheme, font, setFont, motion: THEME_MOTION[theme] }),
+    [theme, setTheme, font, setFont],
+  );
   return (
     <ThemeContext.Provider value={value}>
       {/* Motion skips transform/layout animations for visitors who prefer reduced motion. */}

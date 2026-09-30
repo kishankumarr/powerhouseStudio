@@ -7,6 +7,7 @@ import { useEffect, useState } from "react";
 import { Mark } from "@/components/brand/Logo";
 import { site } from "@/content/site";
 import { useTheme } from "@/components/theme/ThemeProvider";
+import { FontPicker } from "@/components/theme/FontPicker";
 
 export function Nav() {
   const pathname = usePathname();
@@ -83,7 +84,8 @@ export function Nav() {
               ))}
             </ul>
 
-            <div className="flex items-center gap-3">
+            <div className="relative z-10 flex items-center gap-3">
+              <FontPicker />
               <Link
                 href="/contact"
                 className="hidden items-center gap-2 bg-accent px-5 py-2.5 text-[0.85rem] font-medium text-accent-ink transition-shadow duration-500 hover:glow rounded-ui lg:inline-flex"

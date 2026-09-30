@@ -1,4 +1,4 @@
-import { Bodoni_Moda, Hanken_Grotesk, Instrument_Serif, Inter_Tight, Saira } from "next/font/google";
+import { Bodoni_Moda, Hanken_Grotesk, Instrument_Serif, Inter_Tight, Saira, Syne } from "next/font/google";
 
 // Cinematic (default theme) fonts are preloaded; the other theme faces load on demand.
 export const bodoni = Bodoni_Moda({
@@ -38,4 +38,11 @@ export const interTight = Inter_Tight({
   preload: false,
 });
 
-export const fontVariables = [bodoni, hanken, instrument, saira, interTight].map((f) => f.variable).join(" ");
+export const syne = Syne({
+  subsets: ["latin"],
+  variable: "--font-syne",
+  display: "swap",
+  preload: false,
+});
+
+export const fontVariables = [bodoni, hanken, instrument, saira, interTight, syne].map((f) => f.variable).join(" ");
