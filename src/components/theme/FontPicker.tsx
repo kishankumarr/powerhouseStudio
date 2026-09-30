@@ -63,7 +63,7 @@ export function FontPicker() {
             animate={{ opacity: 1, y: 0, clipPath: "inset(0% 0% 0% 0%)" }}
             exit={{ opacity: 0, y: -6, clipPath: "inset(0% 0% 100% 0%)" }}
             transition={{ duration: 0.45, ease: [0.19, 1, 0.22, 1] }}
-            className="absolute top-[calc(100%+0.6rem)] right-0 z-[60] w-[min(20rem,calc(100vw-2rem))] border border-line bg-bg/95 p-2 text-fg backdrop-blur-xl rounded-[calc(var(--radius-media)+4px)]"
+            className="fixed inset-x-4 top-[4.25rem] z-[60] border sm:absolute sm:inset-x-auto sm:top-[calc(100%+0.6rem)] sm:right-0 sm:w-80 border-line bg-bg/95 p-2 text-fg backdrop-blur-xl rounded-[calc(var(--radius-media)+4px)]"
           >
             <p className="px-3 pt-2 pb-2 text-[0.72rem] text-muted">Typeface for headlines. Works with any theme.</p>
             <ul>
