@@ -159,7 +159,7 @@ function MobileMenu({
                       href={item.href}
                       onClick={onNavigate}
                       aria-current={isActive(item.href) && item.href !== "/" ? "page" : undefined}
-                      className="display flex items-baseline gap-4 py-1 text-[clamp(2.6rem,13vw,4.5rem)]"
+                      className="display flex items-baseline gap-4 py-1.5 text-[clamp(2.1rem,10vw,3.5rem)]"
                     >
                       <span className="font-sans text-[0.8rem] tracking-normal text-muted normal-case">{String(i).padStart(2, "0")}</span>
                       {item.label}

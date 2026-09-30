@@ -83,7 +83,7 @@ export default function AboutPage() {
             <Reveal>
               <p className="meta mb-6">Disciplines under one roof</p>
             </Reveal>
-            <Stagger as="ul" className="display t-md flex flex-wrap gap-x-[0.4em] leading-[1.15]" gap={0.04}>
+            <Stagger as="ul" className="display t-md flex flex-wrap gap-x-[0.4em] gap-y-1 leading-[1.25]" gap={0.04}>
               {disciplines.map((d, i) => (
                 <span key={d} className={i % 3 === 1 ? "text-muted" : undefined}>
                   {d}
@@ -159,11 +159,11 @@ export default function AboutPage() {
         <div className="mx-auto grid min-h-[90svh] max-w-[1680px] content-end gap-12 px-4 py-24 sm:px-8 md:grid-cols-2 md:gap-16 lg:px-12">
           <Reveal>
             <h2 className="mb-5 text-[0.85rem] text-white/70">Our vision</h2>
-            <p className="display t-md normal-case leading-[1.1]">{vision}</p>
+            <p className="display t-md normal-case leading-[1.25]">{vision}</p>
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="mb-5 text-[0.85rem] text-white/70">Our mission</h2>
-            <p className="display t-md normal-case leading-[1.1]">{mission}</p>
+            <p className="display t-md normal-case leading-[1.25]">{mission}</p>
             <p className="mt-6 text-white/75">Strategy + Creativity + Production + Execution</p>
           </Reveal>
         </div>

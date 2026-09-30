@@ -95,7 +95,7 @@ export default async function ProjectPage({ params }: PageProps<"/work/[slug]">)
               </h2>
             </Reveal>
             <Reveal>
-              <p className="display t-md normal-case leading-[1.1]">{project.summary}</p>
+              <p className="display t-md normal-case leading-[1.25]">{project.summary}</p>
             </Reveal>
           </div>
           <div className="md:col-span-4 md:col-start-9">

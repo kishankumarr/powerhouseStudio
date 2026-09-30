@@ -64,7 +64,7 @@ export default function ServicesPage() {
             <div className="lg:col-span-6 lg:col-start-7 lg:pt-16">
               <Reveal className="space-y-5">
                 {s.intro.map((p, n) => (
-                  <p key={p} className={n === 0 ? "display t-sm normal-case leading-[1.15]" : "lede text-muted"}>
+                  <p key={p} className={n === 0 ? "display t-sm normal-case leading-[1.3]" : "lede text-muted"}>
                     {p}
                   </p>
                 ))}

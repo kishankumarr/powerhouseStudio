@@ -22,7 +22,7 @@ export function Faq() {
                 onClick={() => setOpen(isOpen ? null : i)}
                 className="flex w-full items-center justify-between gap-6 py-6 text-left"
               >
-                <span className="display t-sm normal-case leading-[1.1]">{f.q}</span>
+                <span className="display t-sm normal-case leading-[1.25]">{f.q}</span>
                 <Plus
                   aria-hidden
                   strokeWidth={1.5}
